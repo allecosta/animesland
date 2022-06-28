@@ -1,0 +1,72 @@
+* {
+    box-shadow: inset 0px 0px 0px 2px rgba(255, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home {
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(/assets/img/home.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 800px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 80px;
+    font-weight: 700;
+    position: relative;
+}
+
+.carousel slide {
+    width: 100%;
+    height: 300px;
+    background-color: green;
+}
+
+.d-block img {
+    width: 100%;
+    height: 643px;
+}
+
+/*
+.socicon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-top: 30px;
+}*/
+
+footer {
+    padding: 50px 10px;
+    background-color: #31404E;
+
+    /*background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(/assets/img/footer.png);*/
+}
+
+footer p {
+    opacity: 0.5;
+    padding: 25px;
+    font-size: 1rem;
+}
+
+footer div a {
+    background-color: #17161d;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    opacity: 0.5;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+footer div a:hover {
+    opacity: 1;
+}
